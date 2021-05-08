@@ -1,0 +1,40 @@
+.list {
+    padding: 9px;
+    font-weight: 300px;
+    font-size: 20px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+}
+
+.list:hover {
+    background-color: beige;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#home {
+    background-color: turquoise;
+}
+
+#petintroduction {
+    width: 100% !important;
+    height: 100% !important;
+}
+.Pets{
+width: 560px;
+height: 500px; 
+padding: 50px;
+}
+#gridview{
+    background-color: firebrick;
+    text-align: center;
+}
+#slideview{
+    background-color:turquoise;
+    text-align: center;
+}
+img:hover{
+ transform: scale(0.9)
+}
