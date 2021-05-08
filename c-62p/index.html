@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <ul>
+            <li class="list"><a href="#home">Home</a></li>
+            <li class="list"><a href="#gridview">Grid view</a></li>
+            <li class="list"><a href="#slideview">Slide view</a></li>
+        </ul>
+    </center>
+    <section id="home">
+        <img id="petintroduction" src="img/pet">
+    </section>
+    <br><br><br><br>
+    <section id="gridview">
+        <h1>Grid view</h1>
+        <center>
+            <div>
+                <span>
+                    <img class="Pets" src="img/budgies.jfif">
+                    <img class="Pets" src="img/hamster.jfif">
+                </span>
+            </div>
+        </center>
+        <br><br>
+        <center>
+            <div>
+                <span>
+                    <img class="Pets" src="img/cat.jfif">
+                    <img class="Pets" src="img/dog.jfif">
+                </span>
+            </div>
+        </center>
+    </section>
+    <br><br><br><br><br>
+    <section id="slideview">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <h1>Slide View</h1>
+        <!--Wrapper for slides-->
+        <div class="carousel-inner">
+            <div class="item active">
+                <center>
+                    <img src="img/budgies.jfif" class="img-resposive" style="width:20%;">
+                    <div class="carousel-caption">
+                        <h3>Budgies</h3>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img src="img/hamster.jfif" class="img-responsive" style="width:35%">
+                    <div class="carousel-caption">
+                        <h3>Hamster</h3>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img src="img/cat.jfif" class="img-responsive" style="width:32%">
+                    <div class="carousel-caption">
+                        <h3>Cat</h3>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img src="img/dog.jfif" class="img-responsive" style="width:25%">
+                    <div class="carousel-caption">
+                        <h3>Dog</h3>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <!--Left and right control-->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+<br><br><br><br>
+</section>
+</body></html>
+    
